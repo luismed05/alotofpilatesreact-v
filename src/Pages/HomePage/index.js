@@ -1,9 +1,12 @@
 import React from 'react';
 
+import { Header , Footer } from "../../Component" 
+
 export default function HomePage() {
   return (
       <>
-        <h1>I'm on the home page</h1>
+        <Header/>
+        <Footer/>
       </>
   );
 }
